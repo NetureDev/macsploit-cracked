@@ -6,7 +6,11 @@ main() {
     echo -e "Install Script Version 2.6"
 
     echo -ne "Checking License..."
+    
+    sleep 1
 
+     echo -ne "Got your free license!!"
+    
     echo -e "Downloading Latest Roblox..."
     [ -f ./RobloxPlayer.zip ] && rm ./RobloxPlayer.zip
     local robloxVersionInfo=$(curl -s "https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer")
@@ -68,7 +72,7 @@ main() {
     fi
     
     echo -e "Done."
-    echo -e "Install Complete! Developed by Nexus42!"
+    echo -e "Install Complete! Developed by Nexus42, and cracked by lua.dmg"
     exit
 }
 
