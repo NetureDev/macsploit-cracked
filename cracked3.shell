@@ -9,7 +9,7 @@ main() {
     
     sleep 1
 
-     echo -ne "Got your free license!!"
+     echo -e "Got your free license!!"
     
     echo -e "Downloading Latest Roblox..."
     [ -f ./RobloxPlayer.zip ] && rm ./RobloxPlayer.zip
